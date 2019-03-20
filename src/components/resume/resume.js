@@ -6,6 +6,7 @@ import Education from "./education";
 import Experience from "./experience";
 import Achievement from "./achievement";
 import Skill from "./skill";
+import CV from "../../file/Nicholas_Xi_Qi_SEAH_CV.pdf";
 
 import "./resume.css";
 
@@ -45,7 +46,7 @@ class Resume extends Component {
                 />
                 <a
                   style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href="https://www.linkedin.com/in/sxqnicholas96/"
+                  href="https://github.com/sxqnicholas96"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -75,9 +76,8 @@ class Resume extends Component {
                 />
                 <a
                   style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href="mailto:nicholas.seah@u.nus.edu"
-                  rel="noopener noreferrer"
-                  target="_blank"
+                  href={CV}
+                  download
                 >
                   My Resume
                 </a>

@@ -1,0 +1,25 @@
+.resume_right_col {
+  background: #27221f;
+  color: white;
+  margin: auto;
+}
+
+.content_break {
+  border-top: 3px solid gray;
+  width: 97%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.links {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+/* Education */
+
+.school_name {
+  margin-top: "0px";
+  align-self: center;
+}

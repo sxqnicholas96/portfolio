@@ -14,30 +14,43 @@ class LandingPage extends Component {
             <div className="banner_text">
               <h1> Software Developer</h1>
               <hr />
-
               <p>
                 HTML/CSS | React | ReactNative | JavaScript| Java | NodeJS |
                 Express
               </p>
             </div>
 
-            <div className="social_links">
-              {/*LinkedIn*/}
-              <a
-                href="https://www.linkedin.com/in/sxqnicholas96/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <i class="fab fa-linkedin" aria-hidden="true" />
-              </a>
-              {/*GitHub*/}
-              <a
-                href="https://github.com/sxqnicholas96"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <i class="fab fa-github-square" aria-hidden="true" />
-              </a>
+            <div className="social_links_bar">
+              <div className="social_links">
+                {/*LinkedIn*/}
+                <a
+                  href="https://www.linkedin.com/in/sxqnicholas96/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    style={{ height: "2em" }}
+                    class="fab fa-linkedin"
+                    aria-hidden="true"
+                  />
+                </a>
+                {/*GitHub*/}
+                <a
+                  href="https://github.com/sxqnicholas96"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-github-square" aria-hidden="true" />
+                </a>
+                {/*GitHub*/}
+                <a
+                  href="mailto:nicholas.seah@u.nus.edu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fas fa-envelope-square" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>

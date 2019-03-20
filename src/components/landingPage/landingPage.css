@@ -18,7 +18,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  margin-top: "1em";
+  width: 20%;
 }
 
 .banner_text {
@@ -48,6 +49,10 @@
   font-weight: bold;
   color: white;
   padding: 1em;
+}
+
+.social_links_bar {
+  display: block;
 }
 
 .social_links {

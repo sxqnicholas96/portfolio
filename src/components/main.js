@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import AboutMe from "./aboutme";
 import Contact from "./contact";
 import LandingPage from "./landingPage/landingPage";
-import Resume from "./resume";
+import Resume from "./resume/resume";
 import Projects from "./projects";
 
 const Main = () => {

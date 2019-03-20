@@ -1,25 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Layout, Navigation, Drawer, Content, Header } from "react-mdl";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <div style={{ height: "300px", position: "relative" }}>
+          <Layout fixedHeader>
+            <Header
+              title={
+                <span>
+                  <span style={{ color: "#ddd" }}>Area / </span>
+                  <strong>The Title</strong>
+                </span>
+              }
+            >
+              <Navigation>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+              </Navigation>
+            </Header>
+            <Drawer title="Title">
+              <Navigation>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+              </Navigation>
+            </Drawer>
+            <Content />
+          </Layout>
+        </div>
       </div>
     );
   }

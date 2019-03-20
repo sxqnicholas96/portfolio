@@ -9,15 +9,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Layout fixedHeader>
-          <Header
-            title={
-              <span>
-                <span style={{ color: "#ddd" }}>Area / </span>
-                <strong>The Title</strong>
-              </span>
-            }
-          >
+        <Layout>
+          <Header className="header_color">
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/aboutme">About Me</Link>
@@ -26,7 +19,7 @@ class App extends Component {
               <Link to="/projects">Projects</Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Navigation">
             <Navigation>
               <Link to="/">Home</Link>
 

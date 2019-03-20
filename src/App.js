@@ -19,18 +19,21 @@ class App extends Component {
             }
           >
             <Navigation>
+              <Link to="/">Home</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/contact">Contact</Link>
               <Link to="/resume">Resume</Link>
-              <Link to="/">Home</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
+              <Link to="/">Home</Link>
+
               <Link to="/aboutme">About Me</Link>
               <Link to="/contact">Contact</Link>
               <Link to="/resume">Resume</Link>
-              <Link to="/">Home</Link>
+              <Link to="/projects">Projects</Link>
             </Navigation>
           </Drawer>
 

@@ -22,6 +22,25 @@ class Resume extends Component {
             <h2>Seah Xi Qi, Nicholas</h2>
             <h4 style={{ color: "grey" }}>Software Developer</h4>
             <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
+            <p style={{ fontSize: "1.3em" }}>
+              I'm an undergraduate majoring in Information Security but really
+              just interested in all things software related. I have experience
+              coding in C, C++, Java, JavaScript and Python.
+            </p>
+            <p style={{ fontSize: "1.3em" }}>
+              Mainly a web developer experienced in using React, ReactNative,
+              Express, Node.js to build CRUD web applications with RESTful APIs.
+              Working towards becoming an experienced full stack developer
+              across different technologies available.
+            </p>
+            <p style={{ fontSize: "1.3em" }}>
+              Currently working part-time during university at local start-up
+              StaffAny. Looking forward to starting my own tech company in the
+              future.
+            </p>
+
+            <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
+
             <div className="links">
               <div>
                 <i

@@ -1,17 +1,19 @@
 {
-  "main.css": "/portfolio/static/css/main.2835e3ad.chunk.css",
-  "main.js": "/portfolio/static/js/main.09758224.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.09758224.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.e6788f70.chunk.css",
+  "main.js": "/portfolio/static/js/main.d1f41710.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.d1f41710.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
   "static/css/2.16919f5a.chunk.css": "/portfolio/static/css/2.16919f5a.chunk.css",
-  "static/js/2.edacdb56.chunk.js": "/portfolio/static/js/2.edacdb56.chunk.js",
-  "static/js/2.edacdb56.chunk.js.map": "/portfolio/static/js/2.edacdb56.chunk.js.map",
+  "static/js/2.d7f09978.chunk.js": "/portfolio/static/js/2.d7f09978.chunk.js",
+  "static/js/2.d7f09978.chunk.js.map": "/portfolio/static/js/2.d7f09978.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.0ef0cd69d5f61f6aba994e7dd46cc843.js": "/portfolio/precache-manifest.0ef0cd69d5f61f6aba994e7dd46cc843.js",
+  "precache-manifest.4848a79693da0d0ae3c81cde9fee8acc.js": "/portfolio/precache-manifest.4848a79693da0d0ae3c81cde9fee8acc.js",
   "service-worker.js": "/portfolio/service-worker.js",
   "static/css/2.16919f5a.chunk.css.map": "/portfolio/static/css/2.16919f5a.chunk.css.map",
-  "static/css/main.2835e3ad.chunk.css.map": "/portfolio/static/css/main.2835e3ad.chunk.css.map",
+  "static/css/main.e6788f70.chunk.css.map": "/portfolio/static/css/main.e6788f70.chunk.css.map",
   "static/media/Nicholas_Xi_Qi_SEAH_CV.pdf": "/portfolio/static/media/Nicholas_Xi_Qi_SEAH_CV.95e4bf30.pdf",
-  "static/media/avatar.png": "/portfolio/static/media/avatar.257a4191.png"
+  "static/media/avatar.png": "/portfolio/static/media/avatar.257a4191.png",
+  "static/media/partycards.png": "/portfolio/static/media/partycards.45070595.png",
+  "static/media/recruitbook.png": "/portfolio/static/media/recruitbook.4c5351fd.png"
 }

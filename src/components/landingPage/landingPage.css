@@ -12,7 +12,8 @@
     #203a43,
     #2c5364
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position : fixed;
+  position: fixed;
+  text-align: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -20,11 +21,8 @@
 }
 
 .landing_grid img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: "10em";
-  width: 20%;
+  padding-top: 3em;
+  width: 35%;
 }
 
 .banner_text {

@@ -9,6 +9,10 @@ import Grid from "@material-ui/core/Grid";
 
 import ProjectCard from "./projectCard";
 import PartyCards from "../../images/partycards.png";
+<<<<<<< HEAD
+=======
+import "./projects.css";
+>>>>>>> 63cc4e348f0f4b29938dc1ebac7c4ad14d43f3af
 
 const TabContainer = props => {
   return (

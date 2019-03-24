@@ -5,7 +5,7 @@ import AboutMe from "./aboutme";
 import Contact from "./contact";
 import LandingPage from "./landingPage/landingPage";
 import Resume from "./resume/resume";
-import Projects from "./projects";
+import Projects from "./projects/projects";
 
 const Main = () => {
   return (

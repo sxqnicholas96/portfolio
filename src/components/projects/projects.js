@@ -9,10 +9,7 @@ import Grid from "@material-ui/core/Grid";
 
 import ProjectCard from "./projectCard";
 import PartyCards from "../../images/partycards.png";
-<<<<<<< HEAD
-=======
-import "./projects.css";
->>>>>>> 63cc4e348f0f4b29938dc1ebac7c4ad14d43f3af
+import RecruitBook from "../../images/recruitbook.png";
 
 const TabContainer = props => {
   return (
@@ -87,7 +84,16 @@ class Projects extends Component {
               />
             </TabContainer>
           )}
-          {value === "Java" && <TabContainer>Item Two</TabContainer>}
+          {value === "Java" && (
+            <TabContainer>
+              <ProjectCard
+                title="RecruitBook"
+                image={RecruitBook}
+                description={`RecruitBook v1.4 is an offline desktop application that allows you to manage job candidates and job offers throughout the process of recruiting. Designed specifically to ease the recruitment process, you can use RecruitBook to add, edit, find, filter, shortlist, email and delete candidates, as well as job offers, to help you efficiently link potential candidates to the job offer that is best suited for them.`}
+                githubLink={`https://github.com/sxqnicholas96/RecruitBook`}
+              />
+            </TabContainer>
+          )}
         </Grid>
       </div>
     );

@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableHead from "@material-ui/core/TableHead";
 
 import Avatar from "../../images/avatar.png";
 import Education from "./education";
 import Experience from "./experience";
 import Achievement from "./achievement";
+import GradeTable from "./gradeTable";
 import Skill from "./skill";
 import CV from "../../file/Nicholas_Xi_Qi_SEAH_CV.pdf";
 
@@ -114,16 +119,69 @@ class Resume extends Component {
                 "Bachelor of Computing (Honors) in Information Security"
               ]}
             />
+            <Grid style={{ marginTop: "-2em", marginBottom: "-2em" }}>
+              <Cell col={4} />
+              <Cell col={8}>
+                <GradeTable
+                  title="Programming Modules"
+                  gradeList={[
+                    { title: "Computer Organisation", grade: "A" },
+                    { title: "Calculus for Computing", grade: "A" },
+                    {
+                      title: "Introduction to Information Security",
+                      grade: "A"
+                    },
+                    {
+                      title:
+                        "Software Engineering & Object-Oriented Programming",
+                      grade: "A-"
+                    },
+                    {
+                      title: "Data Structures and Algorithms",
+                      grade: "A-"
+                    },
+                    {
+                      title: "Programming Methodology ",
+                      grade: "A-"
+                    }
+                  ]}
+                />
+              </Cell>
+            </Grid>
+
             <hr className="content_break" />
             <Education
               startYear="Jan 2013"
               endYear="Dec 2014"
               schoolName="Anglo - Chinese Junior College"
               listDescription={[
-                "Singapore-Cambridge General Certificate of Education Advanced 	Level",
-                "Subjects: Mathematics (A), Physics (B), Chemistry (B), Economics(B), General Paper(B)"
+                "Singapore-Cambridge General Certificate of Education Advanced 	Level"
               ]}
             />
+            <Grid style={{ marginTop: "-2em", marginBottom: "-2em" }}>
+              <Cell col={4} />
+              <Cell col={8}>
+                <GradeTable
+                  title="Subjects"
+                  gradeList={[
+                    { title: "Mathematics", grade: "A" },
+                    { title: "Physics", grade: "B" },
+                    {
+                      title: "Chemistry",
+                      grade: "B"
+                    },
+                    {
+                      title: "Economics",
+                      grade: "B"
+                    },
+                    {
+                      title: "General Paper",
+                      grade: "B"
+                    }
+                  ]}
+                />
+              </Cell>
+            </Grid>
             <hr style={{ borderTop: "3px solid #ffffff", width: "100%" }} />
             <h2 style={{ paddingLeft: "20px" }}> Work Experience</h2>
             <Experience
@@ -276,7 +334,7 @@ class Resume extends Component {
               profList={[
                 { tool: "Microsoft Word", level: "Proficient" },
                 { tool: "Microsoft Powerpoint", level: "Proficient" },
-                { tool: "Microsoft Excel", level: "PIntermediate" }
+                { tool: "Microsoft Excel", level: "Intermediate" }
               ]}
             />
             <hr style={{ borderTop: "3px solid #ffffff", width: "100%" }} />

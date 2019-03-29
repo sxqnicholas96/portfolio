@@ -15,7 +15,7 @@ class LandingPage extends Component {
               <h1> Software Developer</h1>
               <hr />
               <p>
-                HTML/CSS | React | ReactNative | JavaScript| Java | NodeJS |
+                HTML/CSS | React | ReactNative | JavaScript | Java | NodeJS |
                 Express
               </p>
             </div>

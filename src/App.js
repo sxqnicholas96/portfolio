@@ -50,20 +50,6 @@ class App extends Component {
               </Button>
             </Toolbar>
           </AppBar>
-          {/* <Header title={"Seah Xi Qi, Nicholas"} className="header_color">
-            <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-            </Navigation>
-          </Header>
-          <Drawer title="Navigation">
-            <Navigation>
-              <Link to="/">Home</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-            </Navigation>
-          </Drawer> */}
 
           <Content>
             <Main />

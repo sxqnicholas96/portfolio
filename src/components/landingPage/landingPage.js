@@ -34,6 +34,22 @@ class LandingPage extends Component {
                     aria-hidden="true"
                   />
                 </a>
+                {/*Skype*/}
+                <a
+                  href="https://join.skype.com/invite/f6knQfXP11dJ"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-skype" aria-hidden="true" />
+                </a>
+                {/*Email*/}
+                <a
+                  href="mailto:nicholas.seah@u.nus.edu"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fas fa-envelope-square" aria-hidden="true" />
+                </a>
                 {/*GitHub*/}
                 <a
                   href="https://github.com/sxqnicholas96"
@@ -41,14 +57,6 @@ class LandingPage extends Component {
                   target="_blank"
                 >
                   <i class="fab fa-github-square" aria-hidden="true" />
-                </a>
-                {/*GitHub*/}
-                <a
-                  href="mailto:nicholas.seah@u.nus.edu"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i class="fas fa-envelope-square" aria-hidden="true" />
                 </a>
               </div>
             </div>

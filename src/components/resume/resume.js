@@ -16,96 +16,102 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4} />
-          <Cell style={{ position: "fixed" }} col={4}>
-            <div style={{ textAlign: "center" }}>
-              <img src={Avatar} alt="avatar" style={{ height: "200px" }} />
-            </div>
-            <h2>Seah Xi Qi, Nicholas</h2>
-            <h4 style={{ color: "grey" }}>Software Developer</h4>
-            <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
-            <p style={{ fontSize: "1.3em" }}>
-              I'm an undergraduate majoring in Information Security but really
-              just interested in all things software related. I have experience
-              coding in C, C++, Java, JavaScript and Python.
-            </p>
-            <p style={{ fontSize: "1.3em" }}>
-              Mainly a web developer experienced in using React, ReactNative,
-              Express, Node.js to build CRUD web applications with RESTful APIs.
-              Working towards becoming an experienced full stack developer
-              across different technologies available.
-            </p>
-            <p style={{ fontSize: "1.3em" }}>
-              Currently working part-time during university at local start-up
-              StaffAny. Looking forward to starting my own tech company in the
-              future.
-            </p>
+          <Cell style={{ position: "sticky", top: 0 }} col={4}>
+            <div style={{ position: "sticky", top: 0 }}>
+              <div
+                style={{
+                  textAlign: "center"
+                }}
+              >
+                <img src={Avatar} alt="avatar" style={{ height: "200px" }} />
+              </div>
+              <h2>Seah Xi Qi, Nicholas</h2>
+              <h4 style={{ color: "grey" }}>Software Developer</h4>
+              <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
+              <p style={{ fontSize: "1.3em" }}>
+                I'm an undergraduate majoring in Information Security but really
+                just interested in all things software related. I have
+                experience coding in C, C++, Java, JavaScript and Python.
+              </p>
+              <p style={{ fontSize: "1.3em" }}>
+                Mainly a web developer experienced in using React, ReactNative,
+                Express, Node.js to build CRUD web applications with RESTful
+                APIs. Working towards becoming an experienced full stack
+                developer across different technologies available.
+              </p>
+              <p style={{ fontSize: "1.3em" }}>
+                Currently working part-time during university at local start-up
+                StaffAny. Looking forward to starting my own tech company in the
+                future.
+              </p>
 
-            <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
+              <hr style={{ borderTop: "3px solid #000000", width: "50%" }} />
 
-            <div className="links">
-              <div>
-                <i
-                  style={{ fontSize: "1.4em" }}
-                  class="fab fa-linkedin"
-                  aria-hidden="true"
-                />
-                <a
-                  style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href="https://www.linkedin.com/in/sxqnicholas96/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  My LinkedIn
-                </a>
+              <div className="links">
+                <div>
+                  <i
+                    style={{ fontSize: "1.4em" }}
+                    class="fab fa-linkedin"
+                    aria-hidden="true"
+                  />
+                  <a
+                    style={{ textDecoration: "None", marginLeft: "0.5em" }}
+                    href="https://www.linkedin.com/in/sxqnicholas96/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    My LinkedIn
+                  </a>
+                </div>
+                <div>
+                  <i
+                    style={{ fontSize: "1.4em" }}
+                    class="fab fa-github-square"
+                    aria-hidden="true"
+                  />
+                  <a
+                    style={{ textDecoration: "None", marginLeft: "0.5em" }}
+                    href="https://github.com/sxqnicholas96"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    My GitHub
+                  </a>
+                </div>
+                <div>
+                  <i
+                    style={{ fontSize: "1.4em" }}
+                    class="fas fa-envelope-square"
+                    aria-hidden="true"
+                  />
+                  <a
+                    style={{ textDecoration: "None", marginLeft: "0.5em" }}
+                    href="mailto:nicholas.seah@u.nus.edu"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    My Email
+                  </a>
+                </div>
+                <div>
+                  <i
+                    style={{ fontSize: "1.4em" }}
+                    class="fas fa-file-pdf"
+                    aria-hidden="true"
+                  />
+                  <a
+                    style={{ textDecoration: "None", marginLeft: "0.5em" }}
+                    href={CV}
+                    download
+                  >
+                    My Resume
+                  </a>
+                </div>
               </div>
-              <div>
-                <i
-                  style={{ fontSize: "1.4em" }}
-                  class="fab fa-github-square"
-                  aria-hidden="true"
-                />
-                <a
-                  style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href="https://github.com/sxqnicholas96"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  My GitHub
-                </a>
-              </div>
-              <div>
-                <i
-                  style={{ fontSize: "1.4em" }}
-                  class="fas fa-envelope-square"
-                  aria-hidden="true"
-                />
-                <a
-                  style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href="mailto:nicholas.seah@u.nus.edu"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  My Email
-                </a>
-              </div>
-              <div>
-                <i
-                  style={{ fontSize: "1.4em" }}
-                  class="fas fa-file-pdf"
-                  aria-hidden="true"
-                />
-                <a
-                  style={{ textDecoration: "None", marginLeft: "0.5em" }}
-                  href={CV}
-                  download
-                >
-                  My Resume
-                </a>
-              </div>
+              <div className="links" />
             </div>
-            <div className="links" />
           </Cell>
+
           <Cell className="resume_right_col" col={8}>
             <h2 style={{ paddingLeft: "20px" }}> Education</h2>
             <Education

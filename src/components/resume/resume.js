@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableHead from "@material-ui/core/TableHead";
 
 import Avatar from "../../images/avatar.png";
 import Education from "./education";
@@ -20,7 +16,8 @@ class Resume extends Component {
     return (
       <div>
         <Grid>
-          <Cell col={4}>
+          <Cell col={4} />
+          <Cell style={{ position: "fixed" }} col={4}>
             <div style={{ textAlign: "center" }}>
               <img src={Avatar} alt="avatar" style={{ height: "200px" }} />
             </div>
@@ -190,6 +187,7 @@ class Resume extends Component {
               companyName="StaffAny"
               jobRole="Software Engineer"
               listDescription={[
+                "StaffAny is a SaaS start-up targeting the HR industry, aiming to provide software solutions to help managers efficiently manage staff payroll and the scheduling of staff on their mobile and web browsers.",
                 "Worked part-time during university semesters as a quality assurance engineer, responsible for testing product updates and diagnosing bugs that occur before product releases.",
                 "Transitioned to software engineering role during study holiday in December 2018 and assisted in building of product features.",
                 "Engineered automated tests for the company product on the mobile platform."

@@ -17,7 +17,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell style={{ position: "sticky", top: 0 }} col={4}>
-            <div style={{ position: "sticky", top: 0 }}>
+            <div style={{ position: "sticky", top: "2em" }}>
               <div
                 style={{
                   textAlign: "center"

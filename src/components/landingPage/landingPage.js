@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
 import "./landingPage.css";
-import Avatar from "../../images/avatar.png";
+import Avatar from "../../images/sxqn_photo.png";
 
 class LandingPage extends Component {
   render() {
@@ -10,7 +10,8 @@ class LandingPage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing_grid">
           <Cell col={12}>
-            <img src={Avatar} alt="Avatar" />
+          <img src={Avatar} style={{width: "25%", marginTop: "4em" }} alt="Avatar" />
+
             <div className="banner_text">
               <h1> Software Developer</h1>
               <hr />

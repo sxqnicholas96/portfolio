@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-import Avatar from "../../images/avatar.png";
+import Avatar from "../../images/sxqn_photo.png";
 import Education from "./education";
 import Experience from "./experience";
 import Achievement from "./achievement";

@@ -161,30 +161,6 @@ class Resume extends Component {
                 "Singapore-Cambridge General Certificate of Education Advanced 	Level"
               ]}
             />
-            <Grid style={{ marginTop: "-2em", marginBottom: "-2em" }}>
-              <Cell col={4} />
-              <Cell col={8}>
-                <GradeTable
-                  title="Subjects"
-                  gradeList={[
-                    { title: "Mathematics", grade: "A" },
-                    { title: "Physics", grade: "B" },
-                    {
-                      title: "Chemistry",
-                      grade: "B"
-                    },
-                    {
-                      title: "Economics",
-                      grade: "B"
-                    },
-                    {
-                      title: "General Paper",
-                      grade: "B"
-                    }
-                  ]}
-                />
-              </Cell>
-            </Grid>
             <hr style={{ borderTop: "3px solid #ffffff", width: "100%" }} />
             <h2 style={{ paddingLeft: "20px" }}> Work Experience</h2>
             <Experience

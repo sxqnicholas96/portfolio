@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/sxqn_photo.4687c2db.png"
   },
   {
-    "revision": "b2a8371a22116ee59ac9",
-    "url": "/portfolio/static/css/main.a30dc014.chunk.css"
+    "revision": "af69ef779bdb0305327c",
+    "url": "/portfolio/static/css/main.e6788f70.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/avatar.257a4191.png"
   },
   {
-    "revision": "95a39bce6a8f8938856a",
+    "revision": "365244593f2d77043484",
     "url": "/portfolio/static/js/2.d1b7f97e.chunk.js"
   },
   {
-    "revision": "b2a8371a22116ee59ac9",
-    "url": "/portfolio/static/js/main.94419976.chunk.js"
+    "revision": "af69ef779bdb0305327c",
+    "url": "/portfolio/static/js/main.51739761.chunk.js"
   },
   {
     "revision": "95e4bf307f54de5057ab52666d72ab2e",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/recruitbook.4c5351fd.png"
   },
   {
-    "revision": "95a39bce6a8f8938856a",
-    "url": "/portfolio/static/css/2.d571d114.chunk.css"
+    "revision": "365244593f2d77043484",
+    "url": "/portfolio/static/css/2.16919f5a.chunk.css"
   },
   {
-    "revision": "1af743f3dcf9f609d88d0acda088e467",
+    "revision": "4a82678c2ae8f40c4b40068cb8219245",
     "url": "/portfolio/index.html"
   }
 ];
